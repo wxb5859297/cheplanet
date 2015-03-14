@@ -1,0 +1,212 @@
+body {
+    background: url("../image/bg-tile-dark.png") repeat;
+}
+
+#home {
+    /*background-color: #fff;*/
+    color: #111;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+#home:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a.main-link {
+    text-decoration: none;
+}
+
+a.main-link:link {
+    color: #111;
+}
+
+a.main-link:visited {
+    color: #111;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+.side1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ths {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.wencai {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.csy {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.side1 .image1 {
+    width: 100%;
+    height: 100%;
+}
+
+.side1 .image2 {
+    width: 100%;
+    height: 100%;
+}
+
+.side1 .phone {
+    position: relative;
+    width: 350px;
+    height: 650px;
+}
+
+.side1 .content {
+    position: absolute;
+    top: 10px;
+    margin-left: 100px;
+    width: 500px;
+    height: 356px;
+}
+
+.side1 .middle {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.side1 .move_img {
+    width: 215px;
+    height: 60px;
+}
+
+.side1 .btn_1 {
+    position: absolute;
+    left: 452px;
+    top: 142px;
+}
+
+.btn_1:hover {
+    cursor: pointer;
+}
+
+.side1 .btn_2 {
+    position: absolute;
+    left: 715px;
+    top: 142px;
+}
+
+.btn_2:hover {
+    cursor: pointer;
+}
+
+.side1 .wencai_middle {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.side1 .wencai_app {
+    width: 350px;
+    height: 650px;
+    position: absolute;
+    right: 0;
+    top: 130px;
+}
+
+.side1 .wencai_desc {
+    width: 580px;
+    height: 307px;
+    margin-right: 20px;
+    margin-top: 100px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+.side1 .btn_3 {
+    position: absolute;
+    left: 44px;
+    top: 286px;
+}
+
+.btn_3:hover {
+    cursor: pointer;
+}
+
+.side1 .image3 {
+    width: 100%;
+    height: 100%;
+}
+
+.csy {
+    text-align: center;
+}
+
+.side1 .life {
+    position: absolute;
+    width: 1100px;
+    height: 640px;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.step_1 {
+    width: 1000px;
+    height: 210px;
+    margin: 10px;
+    padding-left: 100px;
+}
+
+.item-img {
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+    position: relative;
+    float: left;
+    display: inline;
+}
+
+.step_2 {
+    width: 1000px;
+    height: 210px;
+    margin-left: 10px;
+}
+
+.item-img:hover {
+    cursor: pointer;
+    background: #000;
+    opacity: .8;
+}
+
+.item-img-2 {
+    margin-top: 0;
+}

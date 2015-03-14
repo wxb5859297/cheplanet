@@ -1,0 +1,195 @@
+body {
+    font-family: Helvetica, Arial, 'Microsoft YaHei', '微软雅黑', STXihei, '华文细黑', SimSun, '宋体', Heiti, '黑体', sans-serif;
+    color: #151515;
+    height: 100%;
+    background: url('../image/index/main.jpg') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+a:link {
+    color: #151515;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #151515;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #151515;
+    text-decoration: none;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 730px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -365px;
+    /*border: 1px solid red;*/
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container a {
+    cursor: pointer;
+}
+
+#desc_1 {
+    width: 200px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    top: 130px;
+    left: 30px;
+    font-size: 21px;
+    position: absolute;
+
+    /*background-color: #fff;*/
+    border: 6px solid #fff;
+
+    color: #fff;
+    /*background: rgba(255,255,255,0.6)*/
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration:0.5s;
+}
+
+#desc_2 {
+    width: 300px;
+    height: 110px;
+    padding-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 21px;
+    position: absolute;
+    top: 45px;
+    left: 210px;
+    line-height: 1.2em;
+    /*background-color: #fff;*/
+    border: 6px solid #fff;
+    /*background: rgba(255,255,255,0.6);*/
+    color: #fff;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration:0.5s;
+}
+
+#desc_3 {
+    width: 180px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 21px;
+    position: absolute;
+    top: 360px;
+    left: 500px;
+
+    /*background-color: #fff;*/
+    border: 6px solid #fff;
+    /*background: rgba(255,255,255,0.6)*/
+    color: #fff;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration:0.5s;
+}
+
+#desc_4 {
+    width: 260px;
+    height: 90px;
+    /*line-height: 90px;*/
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;
+    position: absolute;
+    top: 360px;
+    left: 500px;
+    padding-left: 10px;
+
+    /*background-color: #fff;*/
+    border: 6px solid #fff;
+    /*background: rgba(255,255,255,0.6);*/
+    display: table-cell;
+    color: #fff;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration:0.5s;
+}
+
+#design {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    position: fixed;
+    _position: absolute;
+    _margin-top: -0px;
+    z-index: 2000;
+    left: 50%;
+    margin-left: 540px;
+    bottom: 30px;
+    width: 70px;
+}
+
+#design .author {
+    font-size: 16px;
+}
+
+span.small {
+    font-size: 18px;
+}
+
+a:hover #desc_1 {
+    background: rgba(255, 255, 255, 0.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration:0.5s;
+}
+
+a:hover #desc_2 {
+    background: rgba(255, 255, 255, 0.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration:0.5s;
+}
+
+a:hover #desc_3 {
+    background: rgba(255, 255, 255, 0.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration:0.5s;
+}
+
+a:hover #desc_4 {
+    background: rgba(255, 255, 255, 0.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration:0.5s;
+}

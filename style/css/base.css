@@ -1,0 +1,71 @@
+body {
+    font: 12px/1.5 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+#header {
+    height: 50px;
+    width: 100%;
+    background-color: #23232e;
+}
+
+#header .main-nav {
+    width: 800px;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#header .main-nav span {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#footer {
+    height: 80px;
+    width: 100%;
+}
+
+#footer .desc{
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer .desc span{
+    line-height: 30px;
+}
+
+.header-a {
+    color: #7b77c9;
+    text-decoration: none;
+}
+
+.header-a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #7b77c9; /* #ccc换成链接的颜色 */
+    padding-bottom: 2px;
+}
+
+.font-white {
+    color: #ffffff;
+}
+
+.font-violet {
+    color: #7b77c9;
+}
+
+.font-gray {
+    color: #7c7c7c;
+}
+
+.font-size-14{
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
