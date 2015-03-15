@@ -167,6 +167,7 @@ span.small {
 }
 
 a:hover #desc_1 >.border {
+    background: rgba(255, 255, 255, 0.1);
     -moz-transform:scale(1.1);
     -webkit-transform:scale(1.1);
     -o-transform:scale(1.1);
